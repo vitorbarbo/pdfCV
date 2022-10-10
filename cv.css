@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Cormorant Garamond", serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  width: 100vw;
+  gap: 25px;
+}
+.left,
+.right {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+.left {
+  background-color: #1b6b56;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: fit-content;
+}
+.left h2 {
+  margin-bottom: 10px;
+}
+.left hr {
+  width: 5%;
+  margin: 5px auto;
+}
+.infos {
+  width: 80%;
+}
+.job {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px auto 20px auto;
+}
+.details,
+.skills,
+.hobbies {
+  margin: 10px auto 37px auto;
+}
+.details > b,
+.skills > b,
+.hobbies > b,
+.languages > b {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.social-media {
+  text-decoration: none !important;
+  width: 80%;
+}
+.skill {
+  position: relative;
+}
+.star {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+}
+.details > p:nth-child(2) {
+  margin-bottom: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.details > p:last-child {
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.skill > p,
+.language > p {
+  margin-bottom: 0;
+}
+.bar {
+  height: 2px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 0%;
+  margin-top: 0;
+}
+.quarter {
+  width: 25%;
+}
+.half {
+  width: 50%;
+}
+.three-quarters {
+  width: 75%;
+}
+.full {
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 405px;
+  height: fit-content;
+}
+.right h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+}
+li {
+  margin: 5px auto;
+}
+.pdca,
+.ecosolar,
+.hausz {
+  margin: 10px auto;
+}
+.profile {
+  font-weight: 600;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  margin: 0 !important;
+  padding: 0 !important;
+}
